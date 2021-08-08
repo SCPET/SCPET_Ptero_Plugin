@@ -3,7 +3,7 @@
     "meta": {
         "version": "PTDL_v1"
     },
-    "exported_at": "2021-08-07T19:27:18-07:00",
+    "exported_at": "2021-08-07T19:33:39-07:00",
     "name": "SCPET Steam",
     "author": "virtualbrightplayz@gmail.com",
     "description": "SCP: Escape Together Steam Server",
@@ -12,7 +12,7 @@
     "startup": ".\/SCPET-Server",
     "config": {
         "files": "{\r\n    \"settings\/serverconfig.json\": {\r\n        \"parser\": \"json\",\r\n        \"find\": {\r\n            \"port\": \"{{server.build.default.port}}\",\r\n            \"serverName\": \"{{env.SERVER_NAME}}\",\r\n            \"mapPath\": \"{{env.MAP_PATH}}\",\r\n            \"randomMap\": \"{{env.RNG_MAP}}\",\r\n            \"publicServer\": \"{{env.PUBLIC_SERVER}}\",\r\n            \"ServerInfoPastebinId\": \"{{env.SRVLIST_INFO}}\",\r\n            \"ServerListAuthenticationKey\": \"{{env.SRVLIST_KEY}}\",\r\n            \"maxPlayers\": \"{{env.MAX_PLAYERS}}\"\r\n        }\r\n    }\r\n}",
-        "startup": "{\r\n    \"done\": \"Server is ready and is waiting for players\"\r\n}",
+        "startup": "{\r\n    \"done\": \"Successfully loaded server configuration\"\r\n}",
         "logs": "{}",
         "stop": "stop"
     },
