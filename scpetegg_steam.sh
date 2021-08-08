@@ -43,8 +43,8 @@ mkdir -p /mnt/server/.steam/sdk64
 cp -v linux64/steamclient.so ../.steam/sdk64/steamclient.so
 
 
-wget -O console.zip https://api.virtualwebsite.net/files/console.zip
-unzip -o console.zip
+wget -O /mnt/server/console.zip https://scpetgame.com/files/SCP_ET_Server.zip
+cd /mnt/server/
+unzip -o /mnt/server/console.zip
 
-wget -O plugin.zip https://api.virtualwebsite.net/files/PteroPlugin.zip
-unzip -o plugin.zip
+chmod +x /mnt/server/SCPET-Server
